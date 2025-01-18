@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Play | Simon Says Game</title>
+        <link rel="stylesheet" href="simon.css">
+        <link rel="icon" href="images__1_-removebg-preview.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=M+PLUS+Rounded+1c&family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <video class="video-background" autoplay muted loop>
+            <source src="bg-video.mp4.mp4" type="video/mp4">
+        </video>
+        <h1>Simon Says Game</h1>
+        <h2>Press any key to start the game</h2>
+        <div class="btn-container">
+            <div class="line-one">
+                <div class="btn1 red btn" type="button" id="red"></div>
+                <div class="btn2 green btn" type="button" id="green"></div>
+            </div>
+            <div class="line-two">
+                <div class="btn3 yellow btn" type="button" id="yellow"></div>
+                <div class="btn4 purple btn" type="button" id="purple"></div>
+            </div>
+        </div>
+        <script src="simon.js"></script>
+    </body>
+</html>
