@@ -13,7 +13,7 @@ challenge your brain? 😄
 4. Replayable: Challenge yourself or your friends to beat the high score!
 
 # How to Play 🕹️
-1. Press the Start button to begin the game.  
+1. Press any key to begin the game.  
 
 2. Watch the color sequence carefully as it lights up.  
 
